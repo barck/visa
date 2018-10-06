@@ -1,0 +1,27 @@
+@import '../../../node_modules/normalize-styl/normalize.styl'
+@import './font_awesome'
+
+*
+  box-sizing border-box
+
+body
+  background #121212 url(../img/bg_pattern.png)
+  // background #121212
+  color #fff
+  font-family Roboto
+
+.wrapper
+  min-height: calc(100vh - 60px)
+
+.container
+  width 1000px
+  margin 0 auto
+  @media(max-width 768px)
+    width 100%
+    padding 0 10px
+
+h1
+  font-weight 100
+  color #118e57
+  margin-top 0
+  margin-bottom 25px
